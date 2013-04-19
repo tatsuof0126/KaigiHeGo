@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B0F1EFF1721926800539CDA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B0F1EFE1721926800539CDA /* UIKit.framework */; };
+		0B0F1F011721926800539CDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B0F1F001721926800539CDA /* Foundation.framework */; };
+		0B0F1F031721926800539CDA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B0F1F021721926800539CDA /* CoreGraphics.framework */; };
+		0B0F1F091721926800539CDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0B0F1F071721926800539CDA /* InfoPlist.strings */; };
+		0B0F1F0B1721926800539CDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0F1F0A1721926800539CDA /* main.m */; };
+		0B0F1F0F1721926800539CDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0F1F0E1721926800539CDA /* AppDelegate.m */; };
+		0B0F1F111721926800539CDA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B0F1F101721926800539CDA /* Default.png */; };
+		0B0F1F131721926800539CDA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B0F1F121721926800539CDA /* Default@2x.png */; };
+		0B0F1F151721926800539CDA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B0F1F141721926800539CDA /* Default-568h@2x.png */; };
+		0B0F1F181721926800539CDA /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B0F1F161721926800539CDA /* MainStoryboard.storyboard */; };
+		0B0F1F1B1721926800539CDA /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0F1F1A1721926800539CDA /* FirstViewController.m */; };
+		0B0F1F1D1721926800539CDA /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B0F1F1C1721926800539CDA /* first.png */; };
+		0B0F1F1F1721926800539CDA /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B0F1F1E1721926800539CDA /* first@2x.png */; };
+		0B0F1F221721926800539CDA /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0F1F211721926800539CDA /* SecondViewController.m */; };
+		0B0F1F241721926800539CDA /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B0F1F231721926800539CDA /* second.png */; };
+		0B0F1F261721926800539CDA /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B0F1F251721926800539CDA /* second@2x.png */; };
+		0B0F1F2E1721926800539CDA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B0F1F2D1721926800539CDA /* SenTestingKit.framework */; };
+		0B0F1F2F1721926800539CDA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B0F1EFE1721926800539CDA /* UIKit.framework */; };
+		0B0F1F301721926800539CDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B0F1F001721926800539CDA /* Foundation.framework */; };
+		0B0F1F381721926800539CDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0B0F1F361721926800539CDA /* InfoPlist.strings */; };
+		0B0F1F3B1721926800539CDA /* KaigiHeGoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0F1F3A1721926800539CDA /* KaigiHeGoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B0F1F311721926800539CDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B0F1EF31721926700539CDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B0F1EFA1721926700539CDA;
+			remoteInfo = KaigiHeGo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B0F1EFB1721926800539CDA /* KaigiHeGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KaigiHeGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B0F1EFE1721926800539CDA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0B0F1F001721926800539CDA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0B0F1F021721926800539CDA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0B0F1F061721926800539CDA /* KaigiHeGo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KaigiHeGo-Info.plist"; sourceTree = "<group>"; };
+		0B0F1F081721926800539CDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0B0F1F0A1721926800539CDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0B0F1F0C1721926800539CDA /* KaigiHeGo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KaigiHeGo-Prefix.pch"; sourceTree = "<group>"; };
+		0B0F1F0D1721926800539CDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0B0F1F0E1721926800539CDA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0B0F1F101721926800539CDA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0B0F1F121721926800539CDA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0B0F1F141721926800539CDA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0B0F1F171721926800539CDA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		0B0F1F191721926800539CDA /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		0B0F1F1A1721926800539CDA /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		0B0F1F1C1721926800539CDA /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		0B0F1F1E1721926800539CDA /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		0B0F1F201721926800539CDA /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		0B0F1F211721926800539CDA /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		0B0F1F231721926800539CDA /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		0B0F1F251721926800539CDA /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		0B0F1F2C1721926800539CDA /* KaigiHeGoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaigiHeGoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B0F1F2D1721926800539CDA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		0B0F1F351721926800539CDA /* KaigiHeGoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KaigiHeGoTests-Info.plist"; sourceTree = "<group>"; };
+		0B0F1F371721926800539CDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0B0F1F391721926800539CDA /* KaigiHeGoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KaigiHeGoTests.h; sourceTree = "<group>"; };
+		0B0F1F3A1721926800539CDA /* KaigiHeGoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KaigiHeGoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B0F1EF81721926700539CDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B0F1EFF1721926800539CDA /* UIKit.framework in Frameworks */,
+				0B0F1F011721926800539CDA /* Foundation.framework in Frameworks */,
+				0B0F1F031721926800539CDA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B0F1F281721926800539CDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B0F1F2E1721926800539CDA /* SenTestingKit.framework in Frameworks */,
+				0B0F1F2F1721926800539CDA /* UIKit.framework in Frameworks */,
+				0B0F1F301721926800539CDA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B0F1EF21721926700539CDA = {
+			isa = PBXGroup;
+			children = (
+				0B0F1F041721926800539CDA /* KaigiHeGo */,
+				0B0F1F331721926800539CDA /* KaigiHeGoTests */,
+				0B0F1EFD1721926800539CDA /* Frameworks */,
+				0B0F1EFC1721926800539CDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0B0F1EFC1721926800539CDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B0F1EFB1721926800539CDA /* KaigiHeGo.app */,
+				0B0F1F2C1721926800539CDA /* KaigiHeGoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B0F1EFD1721926800539CDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B0F1EFE1721926800539CDA /* UIKit.framework */,
+				0B0F1F001721926800539CDA /* Foundation.framework */,
+				0B0F1F021721926800539CDA /* CoreGraphics.framework */,
+				0B0F1F2D1721926800539CDA /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0B0F1F041721926800539CDA /* KaigiHeGo */ = {
+			isa = PBXGroup;
+			children = (
+				0B0F1F0D1721926800539CDA /* AppDelegate.h */,
+				0B0F1F0E1721926800539CDA /* AppDelegate.m */,
+				0B0F1F161721926800539CDA /* MainStoryboard.storyboard */,
+				0B0F1F191721926800539CDA /* FirstViewController.h */,
+				0B0F1F1A1721926800539CDA /* FirstViewController.m */,
+				0B0F1F1C1721926800539CDA /* first.png */,
+				0B0F1F1E1721926800539CDA /* first@2x.png */,
+				0B0F1F201721926800539CDA /* SecondViewController.h */,
+				0B0F1F211721926800539CDA /* SecondViewController.m */,
+				0B0F1F231721926800539CDA /* second.png */,
+				0B0F1F251721926800539CDA /* second@2x.png */,
+				0B0F1F051721926800539CDA /* Supporting Files */,
+			);
+			path = KaigiHeGo;
+			sourceTree = "<group>";
+		};
+		0B0F1F051721926800539CDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B0F1F061721926800539CDA /* KaigiHeGo-Info.plist */,
+				0B0F1F071721926800539CDA /* InfoPlist.strings */,
+				0B0F1F0A1721926800539CDA /* main.m */,
+				0B0F1F0C1721926800539CDA /* KaigiHeGo-Prefix.pch */,
+				0B0F1F101721926800539CDA /* Default.png */,
+				0B0F1F121721926800539CDA /* Default@2x.png */,
+				0B0F1F141721926800539CDA /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0B0F1F331721926800539CDA /* KaigiHeGoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0B0F1F391721926800539CDA /* KaigiHeGoTests.h */,
+				0B0F1F3A1721926800539CDA /* KaigiHeGoTests.m */,
+				0B0F1F341721926800539CDA /* Supporting Files */,
+			);
+			path = KaigiHeGoTests;
+			sourceTree = "<group>";
+		};
+		0B0F1F341721926800539CDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B0F1F351721926800539CDA /* KaigiHeGoTests-Info.plist */,
+				0B0F1F361721926800539CDA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B0F1EFA1721926700539CDA /* KaigiHeGo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B0F1F3E1721926800539CDA /* Build configuration list for PBXNativeTarget "KaigiHeGo" */;
+			buildPhases = (
+				0B0F1EF71721926700539CDA /* Sources */,
+				0B0F1EF81721926700539CDA /* Frameworks */,
+				0B0F1EF91721926700539CDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KaigiHeGo;
+			productName = KaigiHeGo;
+			productReference = 0B0F1EFB1721926800539CDA /* KaigiHeGo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0B0F1F2B1721926800539CDA /* KaigiHeGoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B0F1F411721926800539CDA /* Build configuration list for PBXNativeTarget "KaigiHeGoTests" */;
+			buildPhases = (
+				0B0F1F271721926800539CDA /* Sources */,
+				0B0F1F281721926800539CDA /* Frameworks */,
+				0B0F1F291721926800539CDA /* Resources */,
+				0B0F1F2A1721926800539CDA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B0F1F321721926800539CDA /* PBXTargetDependency */,
+			);
+			name = KaigiHeGoTests;
+			productName = KaigiHeGoTests;
+			productReference = 0B0F1F2C1721926800539CDA /* KaigiHeGoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B0F1EF31721926700539CDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Tatsuo Fujiwara";
+			};
+			buildConfigurationList = 0B0F1EF61721926700539CDA /* Build configuration list for PBXProject "KaigiHeGo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0B0F1EF21721926700539CDA;
+			productRefGroup = 0B0F1EFC1721926800539CDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B0F1EFA1721926700539CDA /* KaigiHeGo */,
+				0B0F1F2B1721926800539CDA /* KaigiHeGoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B0F1EF91721926700539CDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B0F1F091721926800539CDA /* InfoPlist.strings in Resources */,
+				0B0F1F111721926800539CDA /* Default.png in Resources */,
+				0B0F1F131721926800539CDA /* Default@2x.png in Resources */,
+				0B0F1F151721926800539CDA /* Default-568h@2x.png in Resources */,
+				0B0F1F181721926800539CDA /* MainStoryboard.storyboard in Resources */,
+				0B0F1F1D1721926800539CDA /* first.png in Resources */,
+				0B0F1F1F1721926800539CDA /* first@2x.png in Resources */,
+				0B0F1F241721926800539CDA /* second.png in Resources */,
+				0B0F1F261721926800539CDA /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B0F1F291721926800539CDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B0F1F381721926800539CDA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B0F1F2A1721926800539CDA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B0F1EF71721926700539CDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B0F1F0B1721926800539CDA /* main.m in Sources */,
+				0B0F1F0F1721926800539CDA /* AppDelegate.m in Sources */,
+				0B0F1F1B1721926800539CDA /* FirstViewController.m in Sources */,
+				0B0F1F221721926800539CDA /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B0F1F271721926800539CDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B0F1F3B1721926800539CDA /* KaigiHeGoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B0F1F321721926800539CDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B0F1EFA1721926700539CDA /* KaigiHeGo */;
+			targetProxy = 0B0F1F311721926800539CDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0B0F1F071721926800539CDA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B0F1F081721926800539CDA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0B0F1F161721926800539CDA /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B0F1F171721926800539CDA /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		0B0F1F361721926800539CDA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B0F1F371721926800539CDA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B0F1F3C1721926800539CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0B0F1F3D1721926800539CDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B0F1F3F1721926800539CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KaigiHeGo/KaigiHeGo-Prefix.pch";
+				INFOPLIST_FILE = "KaigiHeGo/KaigiHeGo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0B0F1F401721926800539CDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KaigiHeGo/KaigiHeGo-Prefix.pch";
+				INFOPLIST_FILE = "KaigiHeGo/KaigiHeGo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0B0F1F421721926800539CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KaigiHeGo.app/KaigiHeGo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KaigiHeGo/KaigiHeGo-Prefix.pch";
+				INFOPLIST_FILE = "KaigiHeGoTests/KaigiHeGoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0B0F1F431721926800539CDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KaigiHeGo.app/KaigiHeGo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KaigiHeGo/KaigiHeGo-Prefix.pch";
+				INFOPLIST_FILE = "KaigiHeGoTests/KaigiHeGoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B0F1EF61721926700539CDA /* Build configuration list for PBXProject "KaigiHeGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B0F1F3C1721926800539CDA /* Debug */,
+				0B0F1F3D1721926800539CDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B0F1F3E1721926800539CDA /* Build configuration list for PBXNativeTarget "KaigiHeGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B0F1F3F1721926800539CDA /* Debug */,
+				0B0F1F401721926800539CDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0B0F1F411721926800539CDA /* Build configuration list for PBXNativeTarget "KaigiHeGoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B0F1F421721926800539CDA /* Debug */,
+				0B0F1F431721926800539CDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B0F1EF31721926700539CDA /* Project object */;
+}
