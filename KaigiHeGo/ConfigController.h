@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  SecondViewController.h
 //  KaigiHeGo
 //
 //  Created by 藤原 達郎 on 2013/04/19.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+@interface ConfigController : UIViewController
+
+@property (strong, nonatomic) IBOutlet UILabel *versionLabel;
 
 @end
